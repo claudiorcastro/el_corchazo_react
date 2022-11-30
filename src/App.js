@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Carrusel from './Components/Carrusel/Carrusel';
 import Navbar from './Components/Navbar/Navbar';
-
+import Card from './Components/Card/Card';
 
 function App() {
   return (
