@@ -1,7 +1,17 @@
 import React from 'react'
 import Card from '../Card/Card'
+import Item from '../Item/Item'
 
-const ItemListContainer = (props) => {
+const ItemListContainer = () => {
+  const Items = [
+    { name:'Vinos' },
+    { name:'Fernets'},
+    { name:'Aperitivos' },
+  ]
+
+
+
+
   const cards = [
     {
       titulo:"Fernet Branca",
@@ -49,6 +59,11 @@ const ItemListContainer = (props) => {
 
 
   return (
+    Items.map(({name}) => (
+      <Item name={name}/>
+    )),
+
+
     cards.map  (({titulo,descripcion,img,btnText},index) => (
       <Card
       key={index}
@@ -59,6 +74,9 @@ const ItemListContainer = (props) => {
       />)
     )
   );
+
+ 
+
 }
 
 export default ItemListContainer
