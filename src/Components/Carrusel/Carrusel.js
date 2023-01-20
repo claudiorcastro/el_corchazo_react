@@ -44,35 +44,35 @@ const Carrusel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://www.cronista.com/files/image/417/417960/61c461b492730_360_480!.jpg?s=8ead9f22e54353880f00ef93c063da0e&d=1640264381"
+            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/835/701/themes/cubo/1-slide-1621740094331-873172835-66105985aeadc923b8e834feb05666791621740095-1920-1920.webp?883347455"
             className="d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://latinafy.com/images/blog/22/fernet-branca__1_.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLgM7OaaTf3JfqP2rOUETtxyxParwC76E_Sw&usqp=CAU"
+            className="d-block  w-100"
+            alt="..."
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/551/869/themes/amazonas/1-slide-1655245624581-2895361086-0d0438698d168ba6016a52da04c51afd1655245627-480-0.webp?953195013"
             className="d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.blogs.es/a80d47/foto-apertura/840_560.jpg"
+            src="https://theguiligans.com/wp-content/uploads/2022/10/carrusel4.jpg"
             className="d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://www.clarin.com/img/2021/05/26/VovFmXIGd_720x0__1.jpg"
-            className="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://media.ambito.com/p/f91439d1dece9caf73e785dbc7246749/adjuntos/239/imagenes/040/157/0040157125/cervezajpg.jpg"
+            src="https://image.shutterstock.com/image-illustration/brandy-whiskey-clear-glass-ice-260nw-2152715891.jpg"
             className="d-block w-100"
             alt="..."
           />
