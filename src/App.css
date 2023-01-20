@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background: black;
+  
+}
+h1{
+  color: lightgreen;
+}
+h2{
+  color: lightgreen;
+}
