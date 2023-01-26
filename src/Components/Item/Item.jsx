@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import "./Item.css"
 
 const Item = (props) => {
@@ -13,10 +13,11 @@ const Item = (props) => {
   const restar = () => setContador(contador - 1)
 
   return (
-  <Link style={{textDecoration:'none',color:'black'}} to={'/item/itemdetailcontainer/${id}'}>
-    <div className="productos container" style={{cursor:'pointer'}>
+    
+  <Link style={{textDecoration:"none",color:"black"}} to={'/item/itemdetailcontainer/${id}'}>
+    <div className="productos container">
       <div className='row'>
-        <div className="card " style={{width: "18rem"}}>
+        <div className="card" style={{width: "18rem"}}>
           <img src={img} className="card-img-top" alt="..."/>
           <div className="card-body">
             <h5 className="card-title">{titulo}</h5>
@@ -33,9 +34,10 @@ const Item = (props) => {
             </ul>
           </div>
         </div>
+      </div>
     </div>
   </Link>
-  )
+  )  
 }
 
 export default Item

@@ -1,7 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 const ItemDetailContainer = () => {
-  const (id) = useParams()
+  const titulo = useParams()
+  
   return (
     <h1>ItemDetailContainer</h1>
   )

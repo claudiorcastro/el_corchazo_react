@@ -10,12 +10,4 @@
     margin-top: 1rem;
     width: 100%;
     display: flex;
-
-    .container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 2rem;
-    }
 }

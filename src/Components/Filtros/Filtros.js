@@ -4,7 +4,7 @@ import Select from 'react-select'
 
 const filtros = [
     {label: 'Vinos', value: 'Vinos' },
-    {label: 'Cervezas', value: 'Cervezas' },
+    {label: 'Fernets', value: 'Fernets' },
     {label: 'Aperitivos', value: 'Aperitivos' },
 ]
 

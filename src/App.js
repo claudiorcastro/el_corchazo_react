@@ -1,7 +1,6 @@
 import './App.css';
 import Carrusel from './Components/Carrusel/Carrusel';
 import Navbar from './Components/Navbar/Navbar';
-//import Card from './Components/Card/Card';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
@@ -31,7 +30,7 @@ function App() {
       <Routes>
         <Route path='/' element={<ItemListContainer/>} />
         <Route path='/category/:id' element={<ItemListContainer/>} />
-        <Route path='item/itemdetailcontainer/:id' element={<ItemDetailContainer/>} />
+        <Route path='/item/itemdetailcontainer/:id' element={<ItemDetailContainer/>} />
         <Route path='/cart' element={<Cart/>} />
         <Route path='/checkout' element={<Checkout/>} />
         <Route path='*' element={<Error/>} />
