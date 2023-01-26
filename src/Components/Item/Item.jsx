@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import "./Item.css"
@@ -29,7 +29,7 @@ const Item = (props) => {
             </div>
             <ul>
               <li>
-                <NavLink to="/Cart" className="btn btn-primary" onClick={id}>{btnText}{id}</NavLink>
+                <NavLink to="/Cart" className="btn btn-primary" onClick={id}>{btnText}</NavLink>
               </li>
             </ul>
           </div>
